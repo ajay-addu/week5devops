@@ -11,7 +11,7 @@ RUN npm install
 COPY . .
 
 # Expose the port your app will run on
-EXPOSE 2021
+EXPOSE 2020
 
 # Start the application
 CMD ["node","app.js"]
